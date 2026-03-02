@@ -13,16 +13,12 @@ namespace Player
         private bool _hasHit;
         void Start()
         {
-            _flipSystem = GetComponent<FlipSystem>();
-           //_enemyLayer = GetComponent<LayerMask>();
+            _flipSystem = GetComponent<FlipSystem>();        
         }
-
-        // Update is called once per frame
         void Update()
         {
             OnHit();
-        }       
-        
+        }         
         internal void OnHit()
         {
             _hasHit = false;
@@ -35,8 +31,7 @@ namespace Player
                 {
                     Debug.Log("Fire");
                     _hasHit = true;
-                }
-               
+                }               
             }
         }
         private void OnDrawGizmos()
@@ -46,5 +41,4 @@ namespace Player
             Gizmos.DrawLine(_hitPosition.position, _hitPosition.position + (Vector3)(direction * _hitDistance));
         }
     }
-
 }

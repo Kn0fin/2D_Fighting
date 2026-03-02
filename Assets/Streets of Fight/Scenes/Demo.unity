@@ -129,7 +129,7 @@ GameObject:
   m_Component:
   - component: {fileID: 413774912}
   - component: {fileID: 413774913}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: PointPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -222,7 +222,7 @@ GameObject:
   - component: {fileID: 519420031}
   - component: {fileID: 519420029}
   - component: {fileID: 519420033}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -489,9 +489,9 @@ GameObject:
   - component: {fileID: 1112410429}
   - component: {fileID: 1112410430}
   - component: {fileID: 1112410432}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -605,9 +605,9 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 5
+  m_SortingLayerID: -430684909
+  m_SortingLayer: 2
+  m_SortingOrder: 4
   m_MaskInteraction: 0
   m_Sprite: {fileID: 21300000, guid: 3db1f94c2a9c4456ca0c885b6b8736cb, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -712,7 +712,7 @@ MonoBehaviour:
   _hitPosition: {fileID: 1112410426}
   _enemyLayer:
     serializedVersion: 2
-    m_Bits: 8
+    m_Bits: 0
   _hitDistance: 1
 --- !u!1 &1440011469
 GameObject:
@@ -1514,7 +1514,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1987177062}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: HitPosition
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1530,7 +1530,7 @@ Transform:
   m_GameObject: {fileID: 1987177061}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.149, y: 0.043, z: 0}
+  m_LocalPosition: {x: -0.149, y: -0.011, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
